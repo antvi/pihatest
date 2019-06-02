@@ -1,0 +1,11 @@
+{
+		{
+"id" : "1",
+"login" : "antvi",
+"email" : "antvimail@gmail.com",
+"hashedPassword" : "qwerty",
+"token" : "A1FD3*2Q45D",
+"confirm" : "0"
+		},
+
+}

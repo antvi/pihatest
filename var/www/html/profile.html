@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+	<div class = "panel panel-default">
+		<div class = "panel-body">
+
+		
+		
+		*/Профиль пользователя<hr>
+		Ваш логин:	<?=$PersonList[0]['Login'] -> login;?><br>
+		Ваш email: <?= $PersonList[0]['email'] -> email;?><br>
+		Ваша учетная записть подтверждена: <?= $PersonList[0]['confirm'] -> confirm;?><br>
+		У вас осталось трафика: <? function trafic(){ echo  "Столько то мегабайт"}?><br>
+		У вас осталось трафика: <? function balance(){ echo  "Столько то рублей"}?><hr>/*
+
+
+
+		<div id="person"></div>
+			
+		<form>
+			<input type="password" name="password" class="form-control" style="width: auto; px;"><br>
+			<input type="password" name="new_password" class="form-control" style="width: auto; px;"><br>
+			<input type="password" name="confirm_password" class="form-control" style="width: auto; px;"><br>
+
+			<button type="button" id="change_password" name = "change_password" class="btn btn-warning"> Изменить пароль </button><hr>
+			
+		</form>
+
+		  <div class="error" id="errormessagge"></div>
+		
+
+
+		<a href="/index.html" class="btn btn-danger">exit</a>
+
+		</div>
+	</div>
+
+	</div>
+
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/profile.js"></script>
+</body>
+</html>
